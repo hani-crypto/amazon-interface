@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form of XYZ Engineering College</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>  
+    <header>
+        <h1>XYZ Engineering College</h1>
+        <h2>Student Registration Form</h2>
+    </header>
+    <form action="submit_form.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+
+        <label for="course">Select Course:</label>
+        <select id="course" name="course" required>
+            <option value="">--Select a course--</option>
+            <option value="computer_science">Computer Science</option>
+            <option value="electronics">Electronics</option>
+            <option value="mechanical">Mechanical Engineering</option>
+            <option value="civil">Civil Engineering</option>
+            <option value="chemical">Chemical Engineering</option>
+        </select>
+
+        <button type="submit">Register</button> 
+    </form>
+    <footer>
+        <p>&copy; 2024 XYZ Engineering College. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+/* #navbar{
+    text-align: center;
+    background-color: aqua;
+    color: violet;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#form{
+    text-align: center;
+    background-color: rgb(217, 231, 12);
+    color: blue;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+} */
+ 
+  content{
+    display: inline-block;
+    border: 2px solid black;
+    
+
+  }
+  #content{
+    display:inline-block;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+#navbar{
+    background-color:black;
+    color: white;
+    height:60px;
+
+
+}
+#logo{
+    color:#f08804;
+    height:25px;
+
+}
+button{
+    background-color:#f08804;
+    color: white;
+    
+}
+a{
+    margin-right:200px;
+    text-decoration: none;
+}
+#main{
+    height:500px;
+    width:500px;
+    border:2px solid black;
+    background-color: aqua;
+}
+#benifits{
+    height:500px;
+    width:500px;
+    border:2px solid black;
+    background-color: cadetblue;
+
+}
+#collections{
+    height:500px;
+    width:500px;
+    border:2px solid black;
+    background-color: coral;
+}
+footer{
+    background-color:black;
+    color: white;
+    height:60px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}

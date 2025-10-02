@@ -1,0 +1,168 @@
+header{
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-bottom: 2px solid #e0e0e0;
+}
+header h1{
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+header p{
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    color: #666;
+}
+header nav{
+    margin-top: 15px;
+}
+header nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+header nav a:hover{
+    text-decoration: underline;
+}
+header nav a.active{
+    color: #0056b3;
+}
+header nav a.active:hover{
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+    header h1{
+        font-size: 1.8em;
+    }
+    header p{
+        font-size: 1em;
+    }
+    header nav a{
+        display: block;
+        margin: 10px 0;
+    }
+}
+@media (max-width: 400px) {
+    header{
+        padding: 15px;
+    }
+    header h1{
+        font-size: 1.5em;
+    }
+    header p{
+        font-size: 0.9em;
+    }
+}
+@media (max-width: 300px) {
+    header nav a{
+        font-size: 0.9em;
+    }
+}
+
+/* Additional styles for better aesthetics */
+header{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header nav a{
+    transition: color 0.3s ease;
+}
+header nav a:hover{
+    color: #0056b3;
+}
+header nav a.active{
+    text-decoration: underline;
+}
+header nav a.active:hover{
+    color: #003d80;
+}
+
+/* End of style2.css */
+/* Styles for header section */
+lable{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}   
+input[type="text"]{
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #0056b3;
+}
+form{
+    margin-top: 15px;
+}
+form div{
+    margin-bottom: 10px;
+}
+form div:last-child{
+    margin-bottom: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form div{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form div input[type="text"]{
+    flex: 1;
+    margin-left: 10px;
+}
+form div input[type="submit"]{
+    margin-left: 10px;
+}
+
+/* Responsive adjustments */
+button{
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #218838;
+}
+footer{
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-top: 2px solid #e0e0e0;
+    margin-top: 20px;
+
+    
+    
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+    color: #666;
+    position: relative;
+    bottom: 0;
+    
+    width: 100%;}
+footer p{
+    margin: 0;      
+}
